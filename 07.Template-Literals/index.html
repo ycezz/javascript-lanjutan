@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template Literals</title>
+</head>
+<body>
+    
+    <script>
+        // Template literals
+        // const name = 'John Doe';
+        // const age = 30;
+        // const message = `Hello, my name is ${name}. I am ${age} years old.`;
+        // console.log(message);
+
+        // Embedded Expressions
+        // console.log(`${1 + 1}`);
+        // console.log(`${alert('halo!')}`);
+        // const x = 11;
+        // console.log(`${(x % 2 == 0) ? 'genap' : 'ganjil'}`)
+
+        // HTML Fragments
+        const mhs = {
+            nama: 'Putri',
+            umur: 32,
+            nim: '87205465',
+            email: 'putri@example.com'
+        };
+
+        const el = `<div class="mhs">
+            <h2>${mhs.nama}</h2>
+            <p>Umur: ${mhs.umur} tahun</p>
+            <p>NIM: ${mhs.nim}</p>
+            <p>Email: ${mhs.email}</p>
+        </div>`;
+
+        console.log(el);
+
+
+
+    </script>
+</body>
+</html>
